@@ -34,12 +34,17 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img id="NFT" src={logo} className="App-logo" alt="logo" />
-        <p id="WUTANGTEST">
-          Can you see me now
+        <p id="goham">
+          Testing NPM install of SDK 
+          <br/>Pointed to QA analytics. 
+          <br/>SDK-test project.
         </p>
 
-      <a className="conductive-link" href="https://app.conductive.ai" target="_blank">Look at conductive</a>
-      <a className="conductive-link" href="https://lulznft.com" target="_blank">Lulz NFT</a>
+      <ul>
+        <li><a className="conductive-link" href="https://app.qa-conductive.ai" target="_blank">QA Conductive.ai</a></li>
+        <li><a className="conductive-link" href="https://qa.lulznft.com" target="_blank">QA LulzNFT</a></li>
+      </ul>
+
     <br/>   
       <a href="https://qa.ape.to/y5v5y">Campaign link </a>
     <br/>
