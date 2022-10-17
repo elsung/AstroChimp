@@ -46,7 +46,7 @@ function App() {
       </ul>
 
     <br/>   
-      <a href="https://qa.ape.to/y5v5y">Campaign link </a>
+      <a href="https://qa.ape.to/z66n5">Campaign link </a>
     <br/>
       <a href="https://qa-discord.ape.to/PXyjsSEg8k">Discord Join </a>
       <br/>
