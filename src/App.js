@@ -14,7 +14,8 @@ frame.init(
 )
 
 // Wallet connect function
-const web3 = new Web3('ws://localhost:3001');
+// const web3 = new Web3('ws://localhost:3001');
+const web3 = new Web3('ws://ericlsung.com/AstroChimp');
 async function connect() {
   if (window.ethereum) {
      await window.ethereum.request({ method: "eth_requestAccounts" });
