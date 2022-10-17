@@ -34,25 +34,34 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img id="NFT" src={logo} className="App-logo" alt="logo" />
+        
+        <ul>
+          <li><a className="conductive-link" href="https://app.qa-conductive.ai" target="_blank">QA Conductive.ai</a></li>
+          <li><a className="conductive-link" href="https://qa.lulznft.com" target="_blank">QA LulzNFT</a></li>
+        </ul>
+
         <p id="goham">
           Testing NPM install of SDK 
           <br/>Pointed to QA analytics. 
           <br/>SDK-test project.
         </p>
+    
+        <ul> 
+          <li><a href="https://qa.ape.to/m7dsz">Campaign link </a></li>
+          <li><a href="https://qa-discord.ape.to/PXyjsSEg8k">Discord Join </a></li>
+        </ul>
 
-      <ul>
-        <li><a className="conductive-link" href="https://app.qa-conductive.ai" target="_blank">QA Conductive.ai</a></li>
-        <li><a className="conductive-link" href="https://qa.lulznft.com" target="_blank">QA LulzNFT</a></li>
-      </ul>
-
-    <br/>   
-      <a href="https://qa.ape.to/z66n5">Campaign link </a>
-    <br/>
-      <a href="https://qa-discord.ape.to/PXyjsSEg8k">Discord Join </a>
-      <br/>
-
-      <input type="button" value="Connect Wallet" onClick={connect}/>
+      {/* <input className="wconnect" type="button" value="Connect Wallet" onClick={connect}/> */}
  
+
+      <div class="wrapper">
+        <a class="cta" href="#" onClick={connect}>
+          <span>Connect Wallet</span>
+        </a>
+      </div>
+
+
+
       </header>
     </div>
   );
