@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AstroChimp/static/css/main.7bad16ed.css",
-    "main.js": "/AstroChimp/static/js/main.2ae32d09.js",
+    "main.css": "/AstroChimp/static/css/main.d609e404.css",
+    "main.js": "/AstroChimp/static/js/main.2150dd43.js",
     "static/js/787.0ddf82b8.chunk.js": "/AstroChimp/static/js/787.0ddf82b8.chunk.js",
     "static/media/BG.png": "/AstroChimp/static/media/BG.9a0baab9043a87151ee4.png",
     "static/media/apelaser.png": "/AstroChimp/static/media/apelaser.099b4a1b46854a4df81b.png",
     "index.html": "/AstroChimp/index.html",
-    "main.7bad16ed.css.map": "/AstroChimp/static/css/main.7bad16ed.css.map",
-    "main.2ae32d09.js.map": "/AstroChimp/static/js/main.2ae32d09.js.map",
+    "main.d609e404.css.map": "/AstroChimp/static/css/main.d609e404.css.map",
+    "main.2150dd43.js.map": "/AstroChimp/static/js/main.2150dd43.js.map",
     "787.0ddf82b8.chunk.js.map": "/AstroChimp/static/js/787.0ddf82b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bad16ed.css",
-    "static/js/main.2ae32d09.js"
+    "static/css/main.d609e404.css",
+    "static/js/main.2150dd43.js"
   ]
 }
