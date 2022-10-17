@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AstroChimp/static/css/main.899457ab.css",
+    "main.js": "/AstroChimp/static/js/main.25915995.js",
+    "static/js/787.0ddf82b8.chunk.js": "/AstroChimp/static/js/787.0ddf82b8.chunk.js",
+    "static/media/apelaser.png": "/AstroChimp/static/media/apelaser.099b4a1b46854a4df81b.png",
+    "index.html": "/AstroChimp/index.html",
+    "main.899457ab.css.map": "/AstroChimp/static/css/main.899457ab.css.map",
+    "main.25915995.js.map": "/AstroChimp/static/js/main.25915995.js.map",
+    "787.0ddf82b8.chunk.js.map": "/AstroChimp/static/js/787.0ddf82b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.899457ab.css",
+    "static/js/main.25915995.js"
+  ]
+}
