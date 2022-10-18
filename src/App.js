@@ -6,18 +6,13 @@ import Web3 from 'web3';
 // import { BlockHeader, Block } from 'web3-eth' // ex. package types
 
 
-// New SDK from NPM - LulzNFT -> Prod
+// New SDK from NPM 
 import frame from 'conductive-sdk'
 frame.init(
-  'W08fDAFH3vBvxzn8LSfc7O8_7S9XtnZTyq0KTRnE6TQ',
+  'KX-0gToTv6GUh915KSa2iqBGTFix3i7n1fBLVA7JUNA',
   {api_host:'https://analytics.conductive.ai'}
 )
 
-// New SDK from NPM -> QA site campaigns
-// frame.init(
-//   'L9HJRU96BSSyC2xTP7vsf6shwjTEIzNuB4uBr8aXXBY',
-//   {api_host:'https://analytics.qa-conductive.ai'}
-// )
 
 // Wallet connect function
 // const web3 = new Web3('ws://localhost:3001');
@@ -43,21 +38,15 @@ function App() {
         <img id="NFT" src={logo} className="App-logo" alt="logo" />
         
         <p id="goham">
-          Testing NPM install of SDK 
+          {/* Testing NPM install of SDK 
           <br/>Pointed to QA analytics. 
-          <br/>SDK-test project.
+          <br/>SDK-test project. */}
+          New NPM Install New SDK
         </p>
     
-        <h2>QA Test</h2>
         <ul> 
-          <li><a href="https://qa.ape.to/m7dsz">QA Campaign link </a></li>
-          <li><a href="https://qa-discord.ape.to/PXyjsSEg8k">QA Discord Join </a></li>
-        </ul>
-        
-        <h2>Prod Test</h2>
-        <ul> 
-          <li><a href="https://ape.to/jxtz9">Prod Campaign link </a></li>
-          <li><a href="https://discord.ape.to/3P9GyM2kzR">Prod Discord Join </a></li>
+          <li><a href="https://ape.to/zwcjk">NPM Prod Campaign link </a></li>
+          <li><a href="https://discord.ape.to/J3BPT9KsRJ">NPM Prod Discord Join </a></li>
         </ul>
 
         
