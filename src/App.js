@@ -15,8 +15,18 @@ frame.init(
 
 
 // Wallet connect function
-// const web3 = new Web3('ws://localhost:3001');
-const web3 = new Web3('wss://ericlsung.com/AstroChimp');
+
+var options = {
+  reconnect: {
+      auto: true,
+      delay: 5000, // ms
+      maxAttempts: 5,
+      onTimeout: false
+  },
+  keepalive:true
+};
+
+const web3 = new Web3('wss://ericlsung.com/AstroChimp', options);
 async function connect() {
   if (window.ethereum) {
      await window.ethereum.request({ method: "eth_requestAccounts" });
@@ -41,7 +51,9 @@ function App() {
           {/* Testing NPM install of SDK 
           <br/>Pointed to QA analytics. 
           <br/>SDK-test project. */}
-          New NPM Install New SDK
+          New NPM Install New SDK 1.0.5
+          <br/>
+          Does not seem to add cid sid sc to end of discord link.
         </p>
     
         <ul> 
@@ -54,8 +66,8 @@ function App() {
       {/* <input className="wconnect" type="button" value="Connect Wallet" onClick={connect}/> */}
  
 
-      <div class="wrapper">
-        <a class="cta" href="#" onClick={connect}>
+      <div className="wrapper">
+        <a className="cta" href="#" onClick={connect}>
           <span>Connect Wallet</span>
         </a>
       </div>
