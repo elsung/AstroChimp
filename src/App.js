@@ -6,7 +6,7 @@ import Web3 from 'web3';
 // import { BlockHeader, Block } from 'web3-eth' // ex. package types
 
 
-New SDK from NPM 
+// New SDK from NPM 
 import frame from 'conductive-sdk'
 frame.init(
   'KX-0gToTv6GUh915KSa2iqBGTFix3i7n1fBLVA7JUNA',
@@ -59,13 +59,13 @@ function App() {
           {/* Testing NPM install of SDK 
           <br/>Pointed to QA analytics. 
           <br/>SDK-test project. */}
-          New NPM Install New SDK 1.0.5
+          New NPM Install New SDK 1.0.7!!
           <br/>
-          Does not seem to add cid sid sc to end of discord link.
+              Should work now!
         </p>
     
         <ul> 
-          <li><a href="https://ape.to/zwcjk">NPM Prod Campaign link </a></li>
+          <li><a href="https://ape.to/4sty6">NPM Prod Campaign link </a></li>
           <li><a href="https://discord.ape.to/J3BPT9KsRJ">NPM Prod Discord Join </a></li>
         </ul>
 
