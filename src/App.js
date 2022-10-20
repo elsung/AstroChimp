@@ -6,12 +6,20 @@ import Web3 from 'web3';
 // import { BlockHeader, Block } from 'web3-eth' // ex. package types
 
 
-// New SDK from NPM 
+New SDK from NPM 
 import frame from 'conductive-sdk'
 frame.init(
   'KX-0gToTv6GUh915KSa2iqBGTFix3i7n1fBLVA7JUNA',
   {api_host:'https://analytics.conductive.ai'}
 )
+
+// // Local Test
+// import frame from 'conductive-sdk'
+// frame.init(
+//   'A0vW73DK3wmoqlp8hexfI_JC56PDc_S7g5k6pIsqExM',
+//   {api_host:'http://localhost:8000'}
+// )
+
 
 
 // Wallet connect function

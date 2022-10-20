@@ -3903,10 +3903,10 @@ concat-map@0.0.1:
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
-conductive-sdk@^1.0.3:
-  version "1.0.5"
-  resolved "https://registry.npmjs.org/conductive-sdk/-/conductive-sdk-1.0.5.tgz"
-  integrity sha512-nKXpGX1S910G//sPm7YeGM3wSHOmo8z0u308Iejmdy0lZRJWESVlgZGcYgJL+KuIBiH+PS7zkm5Vn0Z68V+fBA==
+conductive-sdk@^1.0.X:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/conductive-sdk/-/conductive-sdk-1.0.7.tgz#f1e90a52251029a2fec8d73b1ae761e49953728c"
+  integrity sha512-LPKt3LF2xZeqVoNaDrB68vjyFmnpM6XQg5TSSBGQmH8qmZZxmuZwwHvgnP3guVkLboyhGspQRzZzROswBvbIBg==
   dependencies:
     ethers "^5.5.1"
     fflate "^0.4.1"
