@@ -9,18 +9,9 @@ import Web3 from 'web3';
 // New SDK from NPM 
 import frame from 'conductive-sdk'
 frame.init(
-  'KX-0gToTv6GUh915KSa2iqBGTFix3i7n1fBLVA7JUNA',
-  {api_host:'https://analytics.conductive.ai'}
+  'wLG3ZsMppCnPKR-kStQ7FIW6_f6XHDOWrOrlaP-SNEc',
+  {api_host:'https://analytics.qa-conductive.ai'}
 )
-
-// // Local Test
-// import frame from 'conductive-sdk'
-// frame.init(
-//   'A0vW73DK3wmoqlp8hexfI_JC56PDc_S7g5k6pIsqExM',
-//   {api_host:'http://localhost:8000'}
-// )
-
-
 
 // Wallet connect function
 
@@ -59,14 +50,12 @@ function App() {
           {/* Testing NPM install of SDK 
           <br/>Pointed to QA analytics. 
           <br/>SDK-test project. */}
-          New NPM Install New SDK 1.0.7!!
+          New SDK Install - Ver 1.0.7
           <br/>
-              Should work now!
         </p>
     
         <ul> 
-          <li><a href="https://ape.to/4sty6">NPM Prod Campaign link </a></li>
-          <li><a href="https://discord.ape.to/J3BPT9KsRJ">NPM Prod Discord Join </a></li>
+          <li><a href="https://qa-discord.ape.to/CmZtdbat4K">NPM Prod Discord Join </a></li>
         </ul>
 
         
