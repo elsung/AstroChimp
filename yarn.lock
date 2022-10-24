@@ -3903,13 +3903,14 @@ concat-map@0.0.1:
   resolved "https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
-conductive-sdk@^1.0.X:
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/conductive-sdk/-/conductive-sdk-1.0.7.tgz#f1e90a52251029a2fec8d73b1ae761e49953728c"
-  integrity sha512-LPKt3LF2xZeqVoNaDrB68vjyFmnpM6XQg5TSSBGQmH8qmZZxmuZwwHvgnP3guVkLboyhGspQRzZzROswBvbIBg==
+conductive-sdk@^1.0.x:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/conductive-sdk/-/conductive-sdk-1.0.8.tgz#d493ac45a89a6c4ad846d58a6fc3070a0c86bee4"
+  integrity sha512-0CTXyURexhEoTkNsL0uw9e+KEA/7q1n7xLgrLswuymBcIosY2VCn7NH6dGGkx96C05S6/n1bikVqGtdhfZ4/kw==
   dependencies:
     ethers "^5.5.1"
     fflate "^0.4.1"
+    json-schema "0.4.0"
     rrweb-snapshot "^1.1.7"
 
 confusing-browser-globals@^1.0.11:
