@@ -7,11 +7,11 @@ import Web3 from 'web3';
 
 
 // // New SDK from NPM 
-// import frame from 'conductive-sdk'
-// frame.init(
-//   'wLG3ZsMppCnPKR-kStQ7FIW6_f6XHDOWrOrlaP-SNEc',
-//   {api_host:'https://analytics.qa-conductive.ai'}
-// )
+import frame from 'conductive-sdk'
+frame.init(
+  'wLG3ZsMppCnPKR-kStQ7FIW6_f6XHDOWrOrlaP-SNEc',
+  {api_host:'https://analytics.qa-conductive.ai'}
+)
 
 // Wallet connect function
 
@@ -50,7 +50,7 @@ function App() {
           {/* Testing NPM install of SDK 
           <br/>Pointed to QA analytics. 
           <br/>SDK-test project. */}
-          New SDK Install - Ver 1.0.8 (single embed)
+          New SDK Install - Ver 1.0.8
           <br/>
         </p>
     
